@@ -1,0 +1,24 @@
+package Patterns;
+
+import java.util.Scanner;
+
+public class HollowRectangle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter no of rows and coloums");
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+
+        for(int i= 1;i<=m;i++){ // rows
+            for(int j = 1;j<=n;j++){ // cols
+                if(i==1 || i==m || j==1 || j==n)
+                    System.out.print("* ");
+                else System.out.print("  ");
+
+            }
+            System.out.println();// enter
+        }
+        
+    }
+        
+}
