@@ -31,6 +31,6 @@ public class starPyramid {
             System.out.println();
 
         }
-    } 
+    } //
     
 }
